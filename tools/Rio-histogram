@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# [Rio-histogram]
+# Copyright (c) [2015] [Atsushi Hayakawa]
+# This software is released under the MIT License.
+# http://opensource.org/licenses/mit-license.php
+
+X="$1"
+Rio -ge "g+geom_histogram(aes(x=${X}))"
